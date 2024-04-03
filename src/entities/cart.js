@@ -1,5 +1,5 @@
 import Product from "./product.js"
-import { v4 as uuid } from 'uuid'
+import { randomUIID as uuid } from 'crypto'
 
 export default class Cart {
   constructor({ at, products }) {

@@ -1,6 +1,6 @@
 import Benchmark from "benchmark";
-import CartOld from "./cart-id-old.js";
-import CartNew from "./cart-id-new.js";
+import CartOld from "./cart-id/cart-id-old.js/index.js";
+import CartNew from "./cart-id/cart-id-new.js/index.js";
 
 const suite = new Benchmark.Suite;
 
